@@ -1,0 +1,18 @@
+#include<stdio.h> 
+int main()
+{
+    int marks[10];
+    int i=0, sum=0;
+    printf("enter the marks of  10 different subjests");
+    for(i=0; i<10; i++)
+    {
+        
+        scanf("%d", &marks[i]);
+        sum=sum+marks[i];
+    
+    }
+    float per= (sum*100.0)/1000;
+    printf("agreegate marks=%d",sum);
+    printf("percentage=%f", per);
+    
+}
