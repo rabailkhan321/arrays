@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    int hrrt[5];   /*nohw is number of hours worked, bs is basic salary 
+    hrrt is hourly rate.*/
+    int nohw[5];
+    int bs[5];
+    int i;
+    printf("enter the hourly rate of employees\n");
+    for(i=0;i<5;i++)
+    scanf("%d",&hrrt[i]);
+    printf("enter the no of hours worked of employees\n");
+    for(i=0;i<5;i++)
+    scanf("%d",&nohw[i]);
+    for(i=0;i<5;i++)
+    bs[i]=hrrt[i]*nohw[i];
+    printf("the basic salary of emp  1 is %d\n",bs[0]);
+    printf("the basic salary of emp 2  is %d\n",bs[1]);
+    printf("the basic salary of emp 3 is %d\n",bs[2]);
+    printf("the basic salary of emp 4 is %d\n",bs[3]);
+    printf("the basic salary of emp 5 is %d\n",bs[4]);
+
+    
+    
+
+    return 0;
+}
