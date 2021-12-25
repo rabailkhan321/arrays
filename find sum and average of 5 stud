@@ -1,0 +1,18 @@
+
+#include<stdio.h>
+int main()
+{
+    int i;
+    int a[2];
+    printf("enter the elements of the array");
+    
+  for(i=0; i<10; i++)
+  {
+  scanf("%d", &a[i]);
+  }
+  
+  for(i=0; i<10; i++)
+  {
+  printf("the elemens of %d array is %d",i, a[i]);
+  }
+}
